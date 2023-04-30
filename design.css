@@ -1,0 +1,12 @@
+body {
+  background-color: #99e2ff;
+}
+
+#result {
+  color: red;
+}
+
+#luz {
+  width: 10%;
+  height: 10%;
+}

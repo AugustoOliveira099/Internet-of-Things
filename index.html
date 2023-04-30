@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title> Internet das Coisas </title>
+    <link rel="stylesheet" href="design.css">
+    <script src="dash.js"></script>
+</head>
+
+<body>
+
+  <h1>
+  Lista 4
+  </h1>
+  
+  <p id="result">
+    Resultado
+  </p>
+  
+  <hr>
+  <p> <button onclick= "mudar(); SendToServer(3)"> Mudar </button> </p>
+  <hr>
+  
+  <img src="https://i.postimg.cc/wxhFzTKM/Loff.png" id="luz">
+  <button onclick= "acender(); SendToServer(1)"> Ligar </button>
+  <button onclick= "apagar(); SendToServer(0)"> Desligar </button>
+  
+  <p>
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1461329/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&min=0&results=60&title=IOT+-+Projeto&type=step&yaxis=Estado"></iframe>
+  </p>
+
+</body>
+</html>
